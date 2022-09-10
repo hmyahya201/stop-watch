@@ -1,0 +1,158 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 1170;
+    height: 100vh;
+    background: #555e5e;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.container h1{
+    text-align: center;
+}
+.stopWatch{
+    width: 500px;
+    height: 500px;
+    border: 0;
+    border-radius: 50%;
+    background: #000;
+    text-align: center;
+    position: relative;
+    border: 5px solid #ffd700;
+    
+}
+.hr-box{
+    width: 100px;
+    height: 100px;
+    border: 1px solid #ffd700;
+    border-radius: 50%;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    margin-top: 30px;
+
+
+}
+
+.min-sec{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.min-box{
+    width: 100px;
+    height: 100px;
+    border: 1px solid #ffd700;
+    border-radius: 50%;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    margin-left: 50px; 
+}
+.star i{
+    font-size: 60px;
+    color: #ffd700;
+}
+
+.sec-box{
+    width: 100px;
+    height: 100px;
+    border: 1px solid #ffd700;
+    border-radius: 50%;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    margin-top: 10px;
+    margin-right: 50px; 
+    
+}
+
+.count-box{
+    width: 100px;
+    height: 100px;
+    border: 1px solid #ffd700;
+    border-radius: 50%;
+    color: #fff; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
+.digit{
+    font-size: 35px;
+    margin: 3px;
+}
+.text{
+    font-size: 20px;
+    margin-left: 2px;
+    margin-bottom: -7px;
+}
+
+.btn-container{
+    margin-top: 20px;
+}
+.btn-container .btn{
+    padding: 7px 25px;
+    margin: 10px;
+    font-size: 15px;
+}
+#start{
+    background: #1abc9c;
+    color: #000;
+}
+#stop{
+    background: #3198db;
+    color: #000;
+}
+#reset{
+    background: #e74c3e;
+    color: #000;
+}
+
+/* ----Temperature Converter--- */
+
+.child-container{
+    display: flex;
+    padding: 50px;
+    background: #000;
+}
+.child-container label{
+   font-size: 18px;
+   color: #fff;
+}
+.child-container .input-field{
+    margin: 0 10px;
+}
+.child-container input{
+    padding: 5px 10px;
+    font-size: 16px;
+    margin-top: 15px;
+}
+
+.input-field h4{
+    width: 100%;
+    background: #555e5e;
+    font-size: 18px;
+    border-radius: 10px;
+    padding: 10px 15px;
+    text-align: center;
+    color: #fff;  
+}
+
+
+
